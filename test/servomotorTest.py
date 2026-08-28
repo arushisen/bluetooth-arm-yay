@@ -1,5 +1,5 @@
-# basic servoblaster test used to verify that a servo could move between predefined positions.
-# cycles through several position values with a short delay between each movement.
+# basic servoblaster test used to verify that a servo could move between predefined positions
+# cycles through several position values with a short delay between each movement
 
 import RPi.GPIO as GPIO
 import os
