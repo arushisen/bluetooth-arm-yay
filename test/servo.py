@@ -1,3 +1,6 @@
+# tests bluetooth-based control of a single servo before integrating multiple arm joints
+# receives commands over rfcomm and adjusts the servo position in small increments
+
 from bluetooth import*
 import RPi.GPIO as GPIO
 import os
